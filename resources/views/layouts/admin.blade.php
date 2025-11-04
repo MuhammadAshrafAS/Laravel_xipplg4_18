@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>@yield('title', 'AdminLTE - Dilesin')</title>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.x.x/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="{{ asset('css/admin-custom.css') }}" rel="stylesheet">
+  
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="hold-transition sidebar-mini">
