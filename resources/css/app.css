@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan CSS kamu */
+body {
+  background-color: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+}
