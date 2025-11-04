@@ -1,0 +1,43 @@
+/* Memberi latar belakang abu-abu pada halaman */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Mengubah tabel agar terlihat seperti card */
+.table-bordered {
+    background-color: #ffffff;
+    border-radius: 0.5rem; /* Sudut membulat */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); /* Bayangan halus */
+    border: 1px solid #dee2e6; /* Border lebih tipis */
+}
+
+/* Membersihkan header tabel */
+.table-bordered thead {
+    background-color: #f8f9fa;
+}
+
+.table-bordered thead th {
+    border-bottom-width: 2px; /* Header sedikit lebih tebal */
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #495057;
+}
+
+/* Menghilangkan border vertikal di body tabel agar bersih */
+.table-bordered tbody td {
+    border-left: none;
+    border-right: none;
+    vertical-align: middle; /* Teks rapi di tengah */
+}
+
+/* Menambahkan efek hover pada baris */
+.table-bordered tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+/* Styling tombol aksi agar tidak terlalu mencolok */
+.table .btn-sm {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
